@@ -1,0 +1,50 @@
+/*Silder superior*/
+.carousel__h1 {
+    color: #463f3a;
+    font-size: 75px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+/*formulario de contacto*/
+
+.contactform {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.textarea {
+    height: 350px;
+}
+
+.enviaryreset {
+    margin-top: 5px;
+    background-color: #463f3a;
+    color: #f4f3ee;
+    border: none;
+}
+
+.enviaryreset:hover {
+    background-color: #f4f3ee;
+    color: #463f34;
+    border:none;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .form-control {
+        width: 500px;
+    }
+    .enviaryreset {
+        height: 40px;
+        width: 100px;
+    }
+}
+

@@ -1,0 +1,165 @@
+/* Seccion colección */
+
+/*banner*/
+
+.bsbanner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.bsbanner__img1 {
+    width: 250px;
+    height: 250px;
+    margin: 25px 0px 0px 25px
+}
+
+.bsbanner__img2 {
+    width: 250px;
+    height: 250px;
+    margin: 25px 0px 0px 25px
+}
+
+.bsbanner__h1 {
+    writing-mode: vertical-rl;
+    text-orientation:upright;
+    font-size: 30px;
+    margin: 20px;
+}
+
+/*productos*/
+
+.bsproductos {
+    width: 250px;
+    height: 250px;
+    background-color: #bcb8b1;
+    margin: 25px 0px 0px 70px;
+}
+
+.bsproductos__dropdown {
+    padding: 180px 0px 0px 70px;
+}
+
+.bsproductos__boton {
+    background-color: #D8E2DC;
+    color: #463f3a;
+}
+
+.dropdown__menu {
+    background-color: #D8E2DC;
+}
+
+/* footer */
+
+.footerdelproyecto {
+    width: 100%;
+    height: 350px;
+    background-color: #bcb8b1;
+}
+
+.bsfooter {
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.bsfooter div {
+    margin-top: 15px;
+}
+
+.bsfooter__linkredes {
+    text-decoration: none;
+    color: #463f3a;
+    font-size: 20px;
+}
+
+.bsfooter__imagen {
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+}
+
+.bsfooter__contacto {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    color: #463f3a;
+    padding: 20px;
+}
+
+.bsfooter__p {
+    margin-top: 15px;
+}
+
+
+
+#newinh1 {
+    text-align: center;
+}
+
+#newinh2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.newinimg {
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    border: #463f3a 5px solid;
+}
+
+
+/*media queries */
+
+@media only screen and (max-width: 800px) {
+    .bsproductos__dropdown {
+        padding: 75px 0px 0px 20px;
+    }
+
+    .bsbanner__img2 {
+        display: none;    
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .bsproductos {
+        width: 350px;
+        height: 350px;
+    }
+
+    .bsbanner__img1 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .bsbanner__img2 {
+        width: 500px;
+        height: 500px;
+    }
+    .bsbanner__h1 {
+        font-size: 60px;
+    }
+
+    #newinh1 {
+        font-size: 75px;
+    }
+    
+    #newinh2 {
+        font-size: 35px;
+    }
+    
+    
+    .newinimg {
+        height: 400px;
+        width: 400px;
+        margin: 35px;
+        border: #463f3a 5px solid;
+    }
+
+  
+
+}
+

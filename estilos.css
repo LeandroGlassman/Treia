@@ -1,0 +1,603 @@
+/* Estilos para todo el proyecto */
+
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0afa0;
+    color: #8a817c;
+    line-height: normal;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+
+h1 {
+    color: #463f3a;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+}
+
+h2 {
+    color: #463f3a;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.header {
+    background-image: url(./fotos/banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.nav nav {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: #463f3a;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nav nav ul {
+    list-style: none;
+    font-size: 0;
+    color: #D8E2DC;
+}
+
+.nav nav ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+
+.nav nav ul li a {
+    text-align: center;
+    color: #D8E2DC;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.nav nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+.nav nav ul li:hover ul {
+    display: block;
+}
+
+.nav nav ul li ul li {
+    display: block;
+    background-color: #463f3a;
+    margin: 5px;
+    padding: 15px; 
+}
+
+/* Estilos para el index */
+
+
+.logo img {
+    width: 500px;
+    text-align: left;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+
+.tamañosfotoindex {
+    width: 600px;
+    height: 800px;
+    text-decoration: underline #463f3a;
+}
+
+.tamañosfotoindex img {
+    border: #463f3a 5px solid;
+}
+.categoriaindex {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    display: inline;
+    color:#463f3a;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+
+
+.categoriaindex img{
+    border: #463f3a 5px solid;
+    width: 500px;
+    height: 700px;
+}
+
+.categoriaindex h2 {
+    display: none;
+}
+
+.infor {
+    grid-area: infor;
+    padding-right: 400px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+#tarjetas {
+    width: 200px;
+    height: 200px;
+    color: #463f3a;
+    font-size: 25px;
+    text-align: center;
+}
+
+#camion {
+    width: 200px;
+    height: 200px;
+    color: #463f3a;
+    font-size: 25px;
+    text-align: center;
+}
+
+#mapa {
+    width: 200px;
+    height: 200px;
+    color: #463f3a;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+.infor p {
+    transition: all 1s;
+}
+
+.infor p:hover {
+    font-size: 40px;
+    z-index: 5;
+}
+
+
+
+/* Estilos para la sección de colección */
+
+/*Estan en SASS */
+
+/*Estilos para new in */
+
+.h2{
+    color: #463f3a;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.h2left {
+    text-align: left;
+    font-size: 35px;
+}
+
+
+/* Estilos para accesorios */
+
+.header {
+    background-image: url(fotos/banner.svg);
+}
+
+.categoriaaccesorios {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 170px;
+}
+
+
+
+.categoriaaccesorios img {
+    margin: 10px;
+    border: #463f3a 10px;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    border: #463f3a 2px solid;
+    
+}
+
+
+
+
+
+
+/* Estilos para contacto*/
+
+form {
+    height: 700px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.h1contact{
+    text-align: left;
+}
+
+.titulosform {
+    font-size: 40px;
+    color: #463f3a;
+    font-weight: 400;
+}
+
+.input {
+    width: 450px;
+    height: 30px;
+}
+
+
+label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #463f3a;
+}
+
+
+.resetandsubmit {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: #463f3a;
+    padding: 5px;
+    margin: 25px;
+}
+
+.margenresetandsubmit {
+    margin-left: 220px;
+}
+
+
+#nombreyapellido {
+    transition: all 1s;
+}
+
+#nombreyapellido:focus {
+    width: 650px;
+    height: 100px;
+    font-size: 60px;
+    display: none;
+}
+
+#email {
+    transition: all 1s;
+}
+
+#email:focus {
+    width: 650px;
+    height: 100px;
+    font-size: 60px;
+    display: none;
+}
+
+#carouselExampleSlidesOnly {
+    margin-left: 25px;
+}
+
+#navegacion {
+    z-index: 2;
+}
+
+#logo {
+    z-index: 1;
+}
+footer {
+    background-image: linear-gradient(to right, #bcb8b1, #463f3a);
+}
+
+
+.footer {
+height: 300px;
+width: 100%;
+position: relative;
+color: white;
+font-size: 40px;
+font-weight: 400;
+text-align: center;
+}
+
+
+.textodelfooter {
+    font-size: 20px;
+}
+
+.h2form {
+    color: #463f3a;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.h1center {
+    text-align: center;
+}
+
+
+
+/*GRID WEB */
+
+
+.grillas {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "foto1 foto2 foto3"
+    "foto4 foto5 foto6"
+    "infor infor infor"
+    "footer footer footer"
+    ;
+
+    
+    grid-template-rows: 800px 1000px 1000px 600px auto;
+
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    justify-content: center;
+ 
+}
+
+.header {
+    grid-area: header;
+}
+
+.foto1 {
+    grid-area: foto1;
+}
+
+
+.foto2 {
+    grid-area: foto2;
+}
+
+.foto3 {
+    grid-area: foto3;
+}
+
+.foto4 {
+    grid-area: foto4;
+}
+
+.foto5 {
+    grid-area: foto5;
+}
+
+.foto6 {
+    grid-area: foto6;
+}
+
+.infor {
+    grid-area: infor;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
+/* iPhone X/XS iOS 12 horizontal (firefox) */
+
+@media only screen and (max-width:812px) {
+    .grillas {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "foto1 foto2"
+        "foto3 foto4"
+        "foto5 foto6"
+        "infor infor"
+        "footer footer"
+        ;
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 400px 400px 400px 400px 400px 400px;
+        grid-gap: 15px;
+    }
+
+ 
+
+    .logo img {
+        width: 300px;
+        height: 300px;
+        margin-top: 35px;
+        margin-left: 165px;
+    }
+
+
+    .tamañosfotoindex img {
+        height: 150px;
+        width: 100px;
+    }
+
+    .infor img {
+        margin-right: 150;
+    }
+
+    
+
+
+
+
+
+
+}
+
+/* Ipad horizontal  (Firefox) */
+
+
+@media only screen and (max-width: 1024px) {
+
+    .grillas {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "foto1 foto2"
+        "foto3 foto4"
+        "foto5 foto6"
+        "infor infor"
+        "footer footer";
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 600px 800px 800px 800px 300px 300px;
+        grid-column-gap: 10px;    
+        grid-row-gap: 10px;
+    }
+
+    
+    .nav nav ul li ul li {
+        width: 100%;
+    }
+
+    .nav nav ul {
+        margin-right: 185px;
+    }
+
+    .header {
+        background-size: 100%;
+
+    }
+
+    .logo {
+        margin-left: 25px;
+    }
+
+    .tamañosfotoindex img {
+        width: 470px;
+        height: 600px;
+        justify-items: center;
+        align-self: center;
+    }
+
+  
+}
+
+/* Ipad pro 12,9" horizontal (firefox)*/
+@media only screen and (min-width: 1266px) and (max-width 1366px) {
+    
+    .grillas {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "foto 1 foto2 foto3"
+        "foto4 foto5 foto6"
+        "infor infor infor"
+        "footer footer footer"
+        ;
+
+        grid-template-rows: 800px 800px 800px 300px auto;
+        grid-template-columns: 455px 455px 455px;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+        justify-content: center;
+    }
+
+
+    .logo { 
+        margin-left: 175px;
+    }
+
+    .tamañosfotoindex img {
+                width: 450px;
+                height: 600px;
+    }
+}
+
+#fotodeproducto img {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    border: #463f3a 5px solid;
+}
+
+#h1coleccion {
+    margin-top: 50px;
+}
+
+
+/*MOBILE FIRST iPhone X/XS FIREFOX */
+
+@media only screen and (min-width: 400px) {
+    .h2form {
+        display: none;
+    }
+
+    .carousel-inner h1 {
+        text-align: center;
+        font-size: 180px;
+        
+    }
+
+    .titulosform {
+        display: none;
+    }
+
+
+    form {
+            height: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+    form fieldset {
+        text-align: center;
+    }
+         
+    #nombreyapellido {
+        width: 80%;
+        height: 70px;
+    }
+
+    #email {
+        width: 80%;
+        height: 70px;
+    }
+
+    #mensaje {
+        width: 80%;
+        height: 300px;
+    }
+
+    form fieldset textarea {
+        font-size: 50px;
+    }
+
+    label {
+        font-size: 50px;
+    }
+
+    
+    .resetandsubmit {
+        width: 300px;
+        height: 100px;
+        font-size: 50px;
+        margin: 0%;
+    }
+
+   
+
+    
+    }
+
+
