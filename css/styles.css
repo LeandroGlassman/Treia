@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* Seccion colección */
 /*banner*/
+body {
+  background-color: #f4f3ee;
+}
+
 .bsbanner {
   display: flex;
   flex-direction: row;
