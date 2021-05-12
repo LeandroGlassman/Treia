@@ -27,15 +27,20 @@
 }
 
 /*productos*/
-.bsproductos {
+.bsproductos img {
   width: 250px;
   height: 250px;
-  background-color: #bcb8b1;
-  margin: 25px 0px 0px 70px;
+  margin: 25px 0px 0px 55px;
+  border: #463f3a 5px solid;
+}
+
+.bsproductos__texto {
+  text-align: center;
+  font-size: 25px;
 }
 
 .bsproductos__dropdown {
-  padding: 180px 0px 0px 70px;
+  text-align: center;
 }
 
 .bsproductos__boton {
@@ -135,6 +140,11 @@
     font-size: 60px;
   }
 
+  .bsproductos img {
+    width: 250px;
+    height: 250px;
+  }
+
   #newinh1 {
     font-size: 75px;
   }
@@ -148,6 +158,10 @@
     width: 400px;
     margin: 35px;
     border: #463f3a 5px solid;
+  }
+
+  .linkinterno {
+    margin: 0;
   }
 }
 /*Banner */
@@ -335,7 +349,7 @@
 
 /*formulario de contacto*/
 .contactform {
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -343,17 +357,19 @@
 
 .form-control {
   width: 100%;
+  text-align: center;
 }
 
 .textarea {
   height: 350px;
+  text-align: justify;
 }
 
 .enviaryreset {
-  margin-top: 5px;
   background-color: #463f3a;
   color: #f4f3ee;
   border: none;
+  margin: 15px 0px 0px 15px;
 }
 
 .enviaryreset:hover {
