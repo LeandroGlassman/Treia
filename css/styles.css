@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* Seccion colección */
 /*banner*/
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
 .bsbanner {
   display: flex;
   flex-direction: row;
@@ -406,13 +405,16 @@
   margin-left: 7px;
   padding-top: 10px;
 }
+.categoria img {
+  border: #312f2f 5px solid;
+}
 
 .categoria img:hover {
   border: #463f3a 5px solid;
 }
 
 .botoncomprar {
-  background-color: #f4f3ee;
+  background-color: #ff6b6b;
   margin-left: 105px;
   margin-top: 5px;
   color: #463f3a;
@@ -500,8 +502,9 @@
   }
 
   .infodellocal__img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
   }
 }
 /* Afectan a todo el proyecto */
