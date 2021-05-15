@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* Seccion colección */
 /*banner*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
 .bsbanner {
   display: flex;
   flex-direction: row;
@@ -395,6 +396,12 @@
   margin-left: 55px;
 }
 
+#titulodelindex h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 15px;
+}
+
 .categoria {
   margin-left: 7px;
   padding-top: 10px;
@@ -445,6 +452,38 @@
   font-size: 25px;
 }
 
+.formindex {
+  background-color: #ff6b6b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.formindex h2 {
+  font-size: 25px;
+}
+
+.formindex__form {
+  margin-bottom: 15px;
+}
+
+.formindex__input {
+  border-radius: 5px;
+}
+
+.seguinosenlasredes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.seguinosenlasredes img {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+
 @media only screen and (min-width: 768px) {
   .headerindex__logo {
     width: 500px;
@@ -468,9 +507,8 @@
 /* Afectan a todo el proyecto */
 body {
   font-family: "Bebas Neue", cursive;
-  font-family: "Montserrat", sans-serif;
-  background-color: #f4f3ee;
-  color: #463f3a;
+  background-color: #fbfbf2;
+  color: #312f2f;
   line-height: normal;
   text-transform: capitalize;
   letter-spacing: 2px;
