@@ -404,19 +404,24 @@
 .categoria {
   margin-left: 7px;
   padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .categoria img {
   border: #312f2f 5px solid;
+  width: 300px;
+  height: 350px;
 }
 
 .categoria img:hover {
-  border: #463f3a 5px solid;
+  border: #ff6b6b 5px solid;
 }
 
 .botoncomprar {
   background-color: #ff6b6b;
-  margin-left: 105px;
-  margin-top: 5px;
+  margin-top: 15px;
   color: #463f3a;
   border: none;
 }
@@ -472,6 +477,8 @@
 
 .formindex__input {
   border-radius: 5px;
+  font-family: montserrat;
+  text-align: center;
 }
 
 .seguinosenlasredes {
@@ -493,8 +500,16 @@
     margin-left: 400px;
   }
 
+  .bannerdelindex {
+    width: 100%;
+  }
+
   .categoria {
     margin-left: 150px;
+  }
+  .categoria img {
+    width: 400px;
+    height: 550px;
   }
 
   .infodellocal {
