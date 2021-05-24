@@ -63,6 +63,10 @@
   margin-top: 25px;
   text-align: center;
   padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .bsfooter div {
@@ -73,6 +77,10 @@
   text-decoration: none;
   color: #463f3a;
   font-size: 20px;
+}
+
+.bsfooter__linkredes:hover {
+  color: #ff6b6b;
 }
 
 .bsfooter__imagen {
@@ -90,6 +98,10 @@
   padding: 20px;
 }
 
+.bsfooter__contacto:hover {
+  color: #ff6b6b;
+}
+
 .bsfooter__p {
   margin-top: 15px;
 }
@@ -101,6 +113,13 @@
 #newinh2 {
   text-align: center;
   font-size: 25px;
+}
+
+.newin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .newinimg {
@@ -356,7 +375,7 @@
 }
 
 .form-control {
-  width: 100%;
+  width: 250px;
   text-align: center;
 }
 
@@ -366,15 +385,15 @@
 }
 
 .enviaryreset {
-  background-color: #463f3a;
+  background-color: #ff6b6b;
   color: #f4f3ee;
   border: none;
   margin: 15px 0px 0px 15px;
 }
 
 .enviaryreset:hover {
-  background-color: #f4f3ee;
-  color: #463f34;
+  background-color: #463f34;
+  color: #f4f3ee;
   border: none;
 }
 
@@ -477,8 +496,13 @@
 
 .formindex__input {
   border-radius: 5px;
-  font-family: montserrat;
+  font-family: sans-serif;
   text-align: center;
+}
+
+.formindex__image {
+  width: 50px;
+  height: 50px;
 }
 
 .seguinosenlasredes {
@@ -522,6 +546,14 @@
     padding: 30px;
   }
 }
+.formindex__form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Afectan a todo el proyecto */
 .row {
   margin: 0;
@@ -550,5 +582,7 @@ h2 {
   font-family: "Bebas Neue", cursive;
   text-align: center;
 }
+
+/* Las clases del footer estan en coleccion */
 
 /*# sourceMappingURL=styles.css.map */
