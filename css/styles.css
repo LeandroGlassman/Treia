@@ -377,6 +377,7 @@
 .form-control {
   width: 250px;
   text-align: center;
+  font-family: montserrat;
 }
 
 .textarea {
