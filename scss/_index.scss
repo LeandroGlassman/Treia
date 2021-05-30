@@ -1,6 +1,14 @@
 /* Index */
 
 
+.elementosdelindex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .headerindex__logo {
     height: 300px;
     width: 300px;
@@ -50,7 +58,7 @@
 }
 
 .infodellocal {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -87,6 +95,15 @@
     h2 {
         font-size: 25px;
     }
+}
+
+.redessociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+
 }
 
 .formindex__form {

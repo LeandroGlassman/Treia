@@ -448,6 +448,13 @@
   }
 }
 /* Index */
+.elementosdelindex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .headerindex__logo {
   height: 300px;
   width: 300px;
@@ -493,7 +500,7 @@
 }
 
 .infodellocal {
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -529,6 +536,14 @@
 }
 .formindex h2 {
   font-size: 25px;
+}
+
+.redessociales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
 }
 
 .formindex__form {
@@ -624,6 +639,17 @@ h2 {
   font-size: 50px;
   font-family: "Bebas Neue", cursive;
   text-align: center;
+}
+
+/*NAV */
+.container-fluid img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar navbar-light .navbar-expand-lg .navbar-light .bg-light {
+  position: fixed;
+  top: 0;
 }
 
 /* Las clases del footer estan en coleccion */
