@@ -91,7 +91,7 @@
 }
 
 .bsfooter {
-  margin-top: 25px;
+  margin-top: 45px;
   text-align: center;
   padding-top: 25px;
   display: flex;
@@ -609,6 +609,7 @@ body {
   line-height: normal;
   text-transform: capitalize;
   letter-spacing: 2px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -626,5 +627,6 @@ h2 {
 }
 
 /* Las clases del footer estan en coleccion */
+/* Las clases de new in estan en coleccion */
 
 /*# sourceMappingURL=styles.css.map */
