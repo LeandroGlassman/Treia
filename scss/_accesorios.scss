@@ -1,6 +1,14 @@
 
 
 /*Banner */
+
+.centrarcontenido {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
 .accbanner {
     display: flexbox;
     flex-direction: row;
