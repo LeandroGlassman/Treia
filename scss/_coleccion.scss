@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .bsbanner__img1 {
@@ -31,11 +33,19 @@
 
 
 .bsproductos {
-        
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 15px;
+
+
 img {
     width: 250px;
     height: 250px;
-    margin: 25px 0px 0px 55px;
+    margin: 0px;
     border: #463f3a 5px solid;
 }
 }
@@ -47,15 +57,25 @@ img {
 
 .bsproductos__dropdown {
     text-align: center;
+    color: #fbfbf2;
 }
 
 .bsproductos__boton {
-    background-color: #D8E2DC;
-    color: #463f3a;
+    background-color: #312f2f;
+    color: #fbfbf2;
+}
+
+.bsproductos__boton:hover {
+    background-color: #ff6b6b;
 }
 
 .dropdown__menu {
-    background-color: #D8E2DC;
+    background-color: #312f2f;
+    color: #fbfbf2;
+}
+
+.dropdown-item {
+    color: #fbfbf2;
 }
 
 /* footer */
@@ -64,6 +84,21 @@ img {
     width: 100%;
     height: 350px;
     background-color: #bcb8b1;
+}
+
+.link-interno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+
 }
 
 .bsfooter {
@@ -155,6 +190,7 @@ img {
     .bsproductos {
         width: 350px;
         height: 350px;
+        margin-top: 45px;
     }
 
     .bsbanner__img1 {
