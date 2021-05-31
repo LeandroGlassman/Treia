@@ -223,24 +223,12 @@
   flex-direction: column;
 }
 
-.accbanner {
-  display: flexbox;
-  flex-direction: row;
-  flex-wrap: nowrap;
+.banneraccesorios {
+  border-bottom: #ff6b6b solid 5px;
 }
-
-.accbanner__img {
-  width: 250px;
+.banneraccesorios img {
+  width: 100%;
   height: 250px;
-  margin: 15px 0px 0px 90px;
-}
-
-.accbanner__h1 {
-  font-size: 45px;
-}
-
-.accbanner__img2 {
-  display: none;
 }
 
 /*Productos*/
@@ -395,6 +383,12 @@
     text-align: center;
     font-size: 44px;
     margin-left: 750px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .banneraccesorios img {
+    width: 100%;
+    height: 80vh;
   }
 }
 /*Silder superior*/
