@@ -569,18 +569,17 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .headerindex__logo {
-    width: 500px;
-    height: 500px;
-    margin-left: 400px;
+  .carousel-item {
+    height: 100vh;
+    width: 100%;
   }
 
-  .bannerdelindex {
+  #carouselExampleSlidesOnly {
     height: 100vh;
   }
 
   .categoria {
-    margin-left: 150px;
+    margin-left: 0px;
   }
   .categoria img {
     width: 400px;
