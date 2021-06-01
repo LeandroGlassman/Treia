@@ -142,6 +142,9 @@
     display: none;
 }
 
+.indexbanner {
+    display: none;
+}
 
 
 
@@ -163,6 +166,11 @@
             height: 550px;
         }
     }
+
+    .indexbanner {
+        display: none;
+    }
+    
 
 
     
@@ -206,6 +214,13 @@
     .encabezado810__img {
         width: 100%;
     }
+
+    .indexbanner {
+        display: none;
+    }
+    .none {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -217,13 +232,31 @@
         display: none;
     }
 
+    .indexbanner {
+        display: none;
+    }
+
+    .indexbanner {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .none {
+        display: none;
+    }
+
+    
+    
+
 
 }
 
 
-
-
-
+@media only screen and (min-width: 1700px) {
+.none {
+    display: inline-block;
+}
+}
 
 
 
