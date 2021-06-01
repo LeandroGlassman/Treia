@@ -164,7 +164,7 @@
 /*media queries */
 @media only screen and (max-width: 800px) {
   .bsproductos__dropdown {
-    padding: 75px 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
   }
 
   .bsbanner__img2 {
@@ -175,7 +175,7 @@
   .bsproductos {
     width: 350px;
     height: 350px;
-    margin-top: 45px;
+    margin-top: 95px;
   }
 
   .bsbanner__img1 {
