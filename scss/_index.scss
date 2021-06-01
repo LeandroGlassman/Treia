@@ -2,10 +2,12 @@
 
 
 
-.flexcentrado {
+.elementosdelindex {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
