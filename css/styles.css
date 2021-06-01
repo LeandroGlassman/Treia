@@ -707,9 +707,16 @@ h2 {
   height: 50px;
 }
 
-.navbar navbar-light .navbar-expand-lg .navbar-light .bg-light {
-  position: fixed;
-  top: 0;
+.btn-primary:active {
+  background-color: #ff6b6b;
+}
+
+.btn:active {
+  background-color: #ff6b6b;
+}
+
+.dropdown-item:active {
+  background-color: #ff6b6b;
 }
 
 /* Las clases del footer estan en coleccion */
