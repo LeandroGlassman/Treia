@@ -447,6 +447,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .headerindex__logo {
@@ -469,6 +470,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .categoria img {
   border: #312f2f 5px solid;
@@ -567,12 +569,11 @@
   padding: 10px;
 }
 
-@media only screen and (min-width: 768px) {
-  .carousel-inner img {
-    width: 100vw;
-    height: 100vh;
-  }
+.encabezado810 {
+  display: none;
+}
 
+@media only screen and (min-width: 768px) {
   .categoria {
     margin-left: 0px;
   }
@@ -599,6 +600,35 @@
   align-items: center;
 }
 
+/* Cambio de banner */
+@media only screen and (min-width: 810px) {
+  #carouselExampleSlidesOnly {
+    display: none;
+  }
+
+  .encabezado1000 {
+    display: none;
+  }
+
+  .encabezado810 {
+    display: inline-block;
+    width: 100%;
+    height: 1000px;
+  }
+
+  .encabezado810__img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #carouselExampleSlidesOnly {
+    display: none;
+  }
+
+  .encabezado810 {
+    display: none;
+  }
+}
 /* Afectan a todo el proyecto */
 .row {
   margin: 0;
@@ -607,6 +637,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 body {
