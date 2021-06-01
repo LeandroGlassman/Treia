@@ -443,12 +443,9 @@
   }
 }
 /* Index */
-.elementosdelindex {
+.flexcentrado {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .headerindex__logo {
