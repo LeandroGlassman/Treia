@@ -593,6 +593,11 @@
     height: 200px;
     padding: 30px;
   }
+
+  .indexflexrow__inside img {
+    width: 300px;
+    height: 350px;
+  }
 }
 .formindex__form {
   display: flex;
@@ -628,6 +633,11 @@
 
   .none {
     display: none;
+  }
+
+  .indexflexrow__inside img {
+    width: 400px;
+    height: 550px;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -719,6 +729,12 @@ h2 {
   background-color: #ff6b6b;
 }
 
+@media only screen and (max-width: 600px) {
+  .indexflexrow__inside img {
+    width: 300px;
+    height: 350px;
+  }
+}
 /* Las clases del footer estan en coleccion */
 /* Las clases de new in estan en coleccion */
 
